@@ -1,32 +1,35 @@
-# Twilio sip2pstn-simpledial for Heroku and Flask
-* <b> Connect your SIP-based IP Phone to Twilio and call any phone in the world </b>
-* <b> To make calls - Try the `Deploy to Heroku` button to deploy the Webapp in under 5 minutes </b>
-* <b> To receive calls - All you need is a Twilio provisioned [phone number](https://www.twilio.com/user/account/phone-numbers/incoming) </b>
+# White Rabbit SIP for Heroku and Flask
+* <b> Connect your SIP-based IP Phone to White Rabbit and call any phone in the world </b>
+* <b> To make calls - Try the `Deploy to Heroku` button and deploy the Webapp in under 5 minutes </b>
+* <b> SIP Domain configured to the URL you receive when the Heroku deployment is completed </b>
+* <b> To receive calls - All you need is a White Rabbit provisioned [phone number](https://www.twilio.com/user/account/phone-numbers/incoming)</b>
 
-Deploy this sample app to Heroku now!
+Requirements: Free tier Heroku account, fully verified Twilio account.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/timbeyers/sip2pstn-simpledial.git)
+Deploy this amazing app to Heroku now!
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/WR-Consultancy/sip.git)
 
 ## What phones can I use?
-You can use any IP phone that supports SIP. This includes both hard IP phones from brands like Polycom, Cisco, Obihai, Grandstream, as well as soft phones on laptops and smartphones like Bria or Zoiper.
-[Instructions to configure your SIP Endpoint](https://www.twilio.com/docs/api/twilio-sip/pv-sip-registration#configure-your-sip-endpoint)
+You can use any IP phone or soft-phone that supports SIP and alpha-numeric input. This includes both hard IP phones from brands like Polycom, Cisco, Snom, Grandstream, as well as soft-phones on laptops, desktops, tablets and smartphones such as Bria or Zoiper. Many smartphones have built in SIP clients capable of working with this.
 
-## Why connect your phone to Twilio?
+[Configure your SIP Endpoint](https://www.twilio.com/docs/api/twilio-sip/pv-sip-registration#configure-your-sip-endpoint)
+
+## Why connect your phone to White Rabbit?
 1. No contracts or monthly charges. You just pay low charges for calls you make or receive.
-2. No cost to register your IP phone with Twilio so you can receive calls.
-3. You can instantly provision a local telephone number in 50 countries to give you local presence.
+2. No cost to register your IP phone with White Rabbit so you can receive calls.
+3. You can provision a local telephone number in 50 countries to give you local presence.
 4. Build custom call handling logic so you can be reached on the right device at the right time in the right place.
 
 ## Features
-Twilio requires that phone numbers be in E.164 format. To relax this restriction, this app allows the following more commonly known formats.
-Each of the following formats are supported. It is assumed the calls originate from US.
+White Rabbit requires that phone numbers be in E.164 format. To relax this restriction, this app allows the following more commonly known formats. Each of the following formats are supported. It is assumed the calls originate from US.
 
 1. E.164 format - i.e. +14157664555
 2. US domestic formats - i.e. 14157664555,4157664555
 3. Any time 011 exit code from US - i.e. 0114415627220000
 4. SIP URI - i.e. sip:username@somedomain.com
 
-The previously mentioned formats can be used when you enter a phone number in your SIP Endpoint (i.e. Bria or Zoiper iPhone app).
+The previously mentioned formats can be used when you enter a phone number in your SIP Endpoint (i.e. Bria or Zoiper app).
 
 Some conversion examples:
 
@@ -43,7 +46,7 @@ Note: [E.164](https://en.wikipedia.org/wiki/E.164) format is required by Twilio.
 
 1) Grab latest source
 <pre>
-git clone git://github.com/timbeyers/sip2pstn-simpledial 
+git clone git://github.com/WR-Consultancy/sip 
 </pre>
 
 2) Navigate to folder and create new Heroku Cedar app
@@ -118,7 +121,7 @@ def voice():
 
 ## Meta 
 
-* No warranty expressed or implied.  Software is as is. Diggity.
+* No warranty expressed or implied. Software is as is. 
 * [MIT License](http://www.opensource.org/licenses/mit-license.html)
 
 ## Community Contributors
