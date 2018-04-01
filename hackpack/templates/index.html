@@ -2,12 +2,11 @@
 
 {% block title %}Successfully Deployed{% endblock %}
 
-{% block header %}Deployment - Success!{% endblock %}
+{% block header %}Congratulations!{% endblock %}
 
-{% block message %}You deployed Twilio SimpleDial on Heroku using the Flask Web Framework{% endblock %}
+{% block message %}You deployed Twilio on Heroku using the Flask Web Framework{% endblock %}
 
-{% block blurb %}Please configure your SIP Domain Voice URL with the following Heroku URL.
-Replace +1NXXNXXXXXX with your callerId in E.164 format. callerId must be a Twilio provisioned number or a verified number:{% endblock %}
+{% block blurb %}Configure your SIP Domain with the following Heroku URL. Replace +1NXXNXXXXXX with your Twilio provisioned callerId:{% endblock %}
 
 {% block content %}
     <dl id="url_list">
@@ -18,10 +17,10 @@ Replace +1NXXNXXXXXX with your callerId in E.164 format. callerId must be a Twil
     </dl>
 
     <a href="https://www.twilio.com/console/phone-numbers/verified"
-       class="button" >Verify your number with Twilio</a>
+       class="button" target="_blank">Verify your number with Twilio</a>
     <a href="https://www.twilio.com/user/account/phone-numbers/incoming"
-       class="button">Buy a phone number from Twilio</a>
+       class="button" target="_blank">Buy a phone number from Twilio</a>
     <a href="https://www.twilio.com/console/voice/sip/endpoints"
-       class="button">Configure your Twilio SIP Domain</a>
+       class="button" target="_blank">Configure your Twilio SIP Domain</a>
 
 {% endblock %}
