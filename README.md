@@ -16,7 +16,7 @@ You can use any IP phone or soft-phone that supports SIP and alpha-numeric input
 [Configure your SIP Endpoint](https://www.twilio.com/docs/api/twilio-sip/pv-sip-registration#configure-your-sip-endpoint)
 
 ## Why connect your phone to Twilio?
-1. No contracts or monthly charges. You just pay low charges for calls you make or receive.
+1. No contracts. You just pay low charges for calls you make or receive and monthly rental.
 2. No cost to register your IP phone with Twilio so you can receive calls.
 3. You can provision a local telephone number in 50 countries to give you local presence.
 4. Build custom call handling logic so you can be reached on the right device at the right time in the right place.
