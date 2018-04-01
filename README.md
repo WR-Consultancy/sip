@@ -1,8 +1,8 @@
-# White Rabbit SIP for Heroku and Flask
-* <b> Connect your SIP-based IP Phone to White Rabbit and call any phone in the world </b>
+# White Rabbit SIP for Heroku and Twilio
+* <b> Connect your SIP-based IP Phone to Twilio and call any phone in the world </b>
 * <b> To make calls - Try the `Deploy to Heroku` button and deploy the Webapp in under 5 minutes </b>
 * <b> SIP Domain configured to the URL you receive when the Heroku deployment is completed </b>
-* <b> To receive calls - All you need is a White Rabbit provisioned [phone number](https://www.twilio.com/user/account/phone-numbers/incoming)</b>
+* <b> To receive calls - All you need is a Twilio provisioned [phone number](https://www.twilio.com/user/account/phone-numbers/incoming)</b>
 
 Requirements: Free tier Heroku account, fully verified Twilio account.
 
@@ -15,14 +15,14 @@ You can use any IP phone or soft-phone that supports SIP and alpha-numeric input
 
 [Configure your SIP Endpoint](https://www.twilio.com/docs/api/twilio-sip/pv-sip-registration#configure-your-sip-endpoint)
 
-## Why connect your phone to White Rabbit?
+## Why connect your phone to Twilio?
 1. No contracts or monthly charges. You just pay low charges for calls you make or receive.
-2. No cost to register your IP phone with White Rabbit so you can receive calls.
+2. No cost to register your IP phone with Twilio so you can receive calls.
 3. You can provision a local telephone number in 50 countries to give you local presence.
 4. Build custom call handling logic so you can be reached on the right device at the right time in the right place.
 
 ## Features
-White Rabbit requires that phone numbers be in E.164 format. To relax this restriction, this app allows the following more commonly known formats. Each of the following formats are supported. It is assumed the calls originate from US.
+Twilio requires that phone numbers be in E.164 format. To relax this restriction, this app allows the following more commonly known formats. Each of the following formats are supported. It is assumed the calls originate from US.
 
 1. E.164 format - i.e. +14157664555
 2. US domestic formats - i.e. 14157664555,4157664555
